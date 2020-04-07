@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+	background-color: rgb(6, 40, 99);
+    font-family: "Source Sans Pro", sans-serif, Arial, Helvetica;
+}
+
+.container{
+    height: 176vh;
+    overflow-y: auto;
+    background-image: url("https://res.cloudinary.com/temidayomary/image/upload/v1586026252/1_zxzzwd.png"), url("https://res.cloudinary.com/temidayomary/image/upload/v1586026253/2_fefiac.png"), url("https://res.cloudinary.com/temidayomary/image/upload/v1586026253/3_ryvozc.png"), url("https://res.cloudinary.com/temidayomary/image/upload/v1586026253/last_jmrjki.png");
+    background-size: 15%, 15%, 15%, 15%;
+    background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#create {
+	color: #083E9E;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+#welcome {
+	color: gray;
+    font-weight: 400;
+    margin-top: 1px;
+}
+
+.top {
+	text-align: center;
+    margin-top: 20px;
+}
+
+.logo{
+    float: center;
+    margin-left: 571px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+	width: 10px;
+}
+
+label {
+	margin-left: 30px;
+	font-size:13px;
+	font-weight: bold;
+    color: #565151;
+}
+
+
+section {
+    position: absolute;
+    top: 20%;
+    left: 33.5%;
+    width: 450px;
+    height: 890px;
+}
+
+input {
+	background: #E8F1F6;
+    height: 60px;
+    border: 10px;
+    border-radius: 3px;
+    width: 365px;
+    margin: 30px;
+    margin-top: 5px;
+	border-color: none; 
+}
+
+::placeholder {
+    padding-left: 15px;
+}
+
+
+
+#submit {
+    width: 365px;
+    height: 60px;
+	margin: 35px;
+    margin-top: 10px;
+	background: #083E9E;
+	border-radius: 14px 14px 14px 0px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+	cursor: pointer;
+}
+
+
+
+.login-btn {
+	text-align: center;
+    width: 350px;
+    height: 40px;
+    margin: 10px;
+	color: white;
+	cursor: pointer;
+}
+
+#login {
+	color: white;
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 110px;
+    margin-top: 25px;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+.register {
+	background-color: white;
+    border-radius: 20px 20px 20px 0px;
+    padding-top: 20px;
+}
+
+.details {
+    padding: 8px;
+    margin-top: 20px;
+}
+
+#social {
+    height: 60px;
+    font-size: 15px;
+    width: 365px;
+    margin-top: 5px;
+    margin-left: 30px;
+    background: #E8F1F6;
+    border-color: #E8F1F6;
+    overflow: scroll;
+    border-radius: 10px;
+}
