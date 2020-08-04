@@ -8,38 +8,35 @@
 	<title>PiggyVest sign up page</title>
 </head>
 <body>
-      
-      <div class="container">
-            <div class="logo">
-	 	   <a href="#piggyvest.com"><img src="https://res.cloudinary.com/temidayomary/image/upload/v1586026253/piggyvest-logo.0b78a8fa_drypwd.svg" alt="piggyvestlogo"></a>
+      <section class="logo">
+	 	<a href="#piggyvest.com"><img src="images/piggyvest-logo.svg" alt="piggyvestlogo"></a>
+      </section>
+
+
+	<section class="form">
+            <div class="leading">
+      		<h1>Create a Secure Account</h1>
+      		<p class="span">Welcome to the future of Savings & Investments</p>
             </div>
-
-
-	<section>
-		<div class="register">
-		    <div class="top">
-		          <h1 id="create">Create a Secure Account</h1>
-		          <h5 id="welcome">Welcome to the future of Savings & Investments</h5>
-                </div>
     
 	     <form>
-		<div class="details">
-		      <label for="fname">Full Name</label></br>
-        	      <input type="text" name="fname" id="fname" placeholder="Full Name"><br>
+		      <label for="fname">Full Name</label>
+        	      <input type="text" name="fname" id="fname" placeholder="Full Name" required>
             
-                  <label for="email">Email Address</label><br/>   
-                  <input type="email" name="email" id="email" placeholder="Email Address"><br>
+                  <label for="email">Email Address</label> 
+                  <input type="email" name="email" id="email" placeholder="Email Address" required>
 
-                  <label for="phone-number">Phone Number</label><br/>
-                  <input type="number" name="Phone number" id="phone-number" placeholder="Phone Number"><br>
+                  <label for="phone-number">Phone Number</label>
+                  <input type="tel" name="Phone number" id="phone-number" placeholder="Phone Number" required>
             
-                  <label for="password">Password</label><br/>        
-                  <input type="password" name="password"  placeholder="Password"><br>
+                  <label for="password">Password</label>        
+                  <input type="password" name="password"  placeholder="Password" pattern=".{6,}"
+                              title="Must contain at least 6 characters" required>
 
-                  <label for="promo code">Referrer Phone or Promo Code (Optional)</label><br/>        
-                  <input type="text" name="promo code" id="promo code" placeholder="Referrer Phone Or Code"><br> 
+                  <label for="promo code">Referrer Phone or Promo Code (Optional)</label>      
+                  <input type="text" name="promo code" id="promo code" placeholder="Referrer Phone Or Code">
             
-                  <label for="social">How Did You Hear About Us? (Optional)</label><br/>
+                  <label for="social">How Did You Hear About Us? (Optional)</label>
                   <select id="social" name="social">
                         <option value="" selected>Click To Select</option>
                         <option value="Facebook">Facebook</option>
@@ -53,19 +50,18 @@
                         <option value="At an event">At an event</option>
                         <option value="Other">Other</option>
                   </select>
-            
-             
-            </form>    
-		</div>
-	
-            <br>
 
-            <button type="submit" id="submit">CREATE ACCOUNT</button>
+                  <br>
+                  <br>
 
-	</div>
-		<p id="login" >Already have an account?<a href= "#Sign in page" class="login-btn" type="button">Log In</a></p>
+                  <button type="submit" class="button">CREATE ACCOUNT</button>
+                
+            </form>
+      </section>
+
+	<section class="signIn">
+		<p>Already have an account?<a href= "#Sign in page">Log In</a></p>
 	</section>
 
-    </div>
 </body>
 </html>
